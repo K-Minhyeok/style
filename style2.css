@@ -1,0 +1,109 @@
+
+
+h1{
+    display: block;
+    font-size: 30px;
+    padding-top: 25px;
+    color: rgb(144, 208, 48);
+    font-weight: bold;
+}
+
+h2{
+    display: block;
+    font-weight: bold; 
+    color: greenyellow;
+
+}
+
+h3{
+    display: block;
+    font-weight: bold;
+    color: greenyellow;
+
+}
+
+body {
+    background-color: black;
+    color: rgb(12, 162, 12);
+    font : 100% Courier New;
+    margin: 20px;
+    line-height: 26px;
+    padding-left:15px;
+
+}
+
+
+#myinfo{
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#hello{
+margin-top: 0;
+}
+
+
+#list{
+    list-style-type: disc;
+    position: relative;
+    padding-left: 30px;
+    top : 10px; 
+}
+
+
+/* #item{
+    color: rgb(12, 162, 12);
+
+    
+} */
+
+#item:hover{
+    color:white;
+}
+
+.selected{
+    color:white;
+}
+
+.change{
+    color:white;
+
+}
+.change:hover{
+    color: rgb(12, 162, 12);
+}
+
+#third{
+    display: block;
+    padding-bottom: 15px;
+}
+
+#sideBar{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    width: 320px;
+    top: 100px;
+    right: 0;
+    font-size: 80%;
+    line-height: 20px;
+}
+
+#sideH{
+    color:white;
+
+}
+
+#lastone{
+    display: block;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 14px;
+    color:white;
+    padding:10px;
+
+}
