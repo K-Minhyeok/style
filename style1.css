@@ -1,0 +1,68 @@
+h1{
+    display: block;
+    color: green;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+h2{
+    display: block;
+    color: green;
+    font-weight: bold; 
+  
+}
+
+h3{
+    display: block;
+    color: green;
+    font-weight: bold;
+}
+
+body {
+    font: 100% Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+
+
+
+#list{
+    list-style-type: disc;
+    position: relative;
+    padding-left: 0; 
+    top : 10px;
+}
+
+
+#item{
+    display: block;
+    width: 165px;
+    float: left;
+    background-color: grey;
+    color: white;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+#third{
+    display: block;
+    padding-bottom: 15px;
+}
+
+#sideBar{
+    display: block;
+    background-color: rgb(217, 216, 216);
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    
+}
+
+#lastone{
+    text-align: center;
+    font-size: 11px;
+    line-height: 14px;
+}
