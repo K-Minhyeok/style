@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to know about you</title>
+</head>
+<body>
+    <h1> Enter your info </h1>
+    <form>
+    <!-- 이름, 생년월일,남녀, 전공, 사는 기숙사 ,설문조사 일시-->
+    <!-- 고향, 혈액형,  -->
+    <div>
+    <li>Name: 
+    <input type="text", id="name"> 
+    <br>
+    </div>
+    <br>
+    </li>
+
+    <div>
+    <li>Birth date:
+    <input type="date", id="birth"> 
+    <br>
+    </div>
+    <br>
+    </li>
+
+    <div>
+    <li>Gender:
+    <input type="radio" id="male" name="gender" value="1">
+    <label for="male">male</label>
+
+    <input type="radio" id="female" name="gender" value="2">
+    <label for="male">female</label>
+    <br>
+    </div>
+    <br>
+    </li>
+
+
+    <div>
+        <li>Major:
+            <input type="checkbox" id="CSEE" name="major" value="1">
+            <label for="CSEE"> CSEE</label>
+            <input type="checkbox" id="Comunication" name="major" value="2">
+            <label for="Comunication"> Comunication</label>
+            <input type="checkbox" id="law" name="major" value="3">
+            <label for="law"> law</label>
+            <input type="checkbox" id="GLS" name="major" value="4">
+            <label for="GLS"> GLS</label>
+            <input type="checkbox" id="Managemnet" name="major" value="5">
+            <label for="Managemnet"> Managemnet</label> <br>
+            <input type="checkbox" id="Life SC" name="major" value="6">
+            <label for="Life SC">Life SC</label>
+            <input type="checkbox" id="Counseling" name="major" value="7">
+            <label for="Counseling"> Counseling</label>
+
+        </div>
+        <br>
+        </li>
+
+
+        <div>
+            <li>Domitory:
+            <select name = "Domitory">
+                    <option value="1"> 비전 </option>
+                    <option value="2"> 국제 </option>
+                    <option value="3" selected> 로뎀 </option>
+                    <option value="4"> 은혜 </option>
+                    <option value="5"> 카이퍼 </option>
+                    <option value="6"> 창조 </option>
+                    <option value="7"> 갈대상자관 </option>
+            </select> 
+            <br>
+            </div>
+            <br>
+            </li>
+
+            <div>
+                <li>Prof in charge of you: 
+                <input type="text", id="prof"> 
+                <br>
+                </div>
+                <br>
+                </li>
+
+
+        <div>
+            <li>Blood type:
+            <select name = "bloodtype">
+                    <option value="A"> A </option>
+                    <option value="B"> B </option>
+                    <option value="O" selected> O </option>
+                    <option value="Ab"> AB </option>
+            </select> 
+            <br>
+            </div>
+            <br>
+            </li>
+
+            <div>
+                <li>Home:
+                <select name = "Home">
+                        <option value="1"> 서울 </option>
+                        <option value="2"> 경기도 </option>
+                        <option value="3" selected> 경상도 </option>
+                        <option value="4"> 강원도 </option>
+                        <option value="5"> 제주도 </option>
+                        <option value="6"> 전라도 </option>
+                        <option value="7"> 충청도 </option>
+                </select> 
+                <br>
+                </div>
+                <br>
+                </li>
+
+
+        
+        <div>
+            <li>Tell me yourself:
+            <textarea name="selfa" clos="100" rows=""20>hello</textarea> 
+            <br>
+            </div>
+            <br>
+            </li>
+
+
+
+            <div>
+                <li>Today:
+                <input type="date", id="today"> 
+            </li>
+                <br>
+                </div>
+                <br>
+
+    </form>
+</body>
+</html>

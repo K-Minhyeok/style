@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(49, 48, 48);
+}
+
+
+
+h3,h2{
+    color:white;
+    font-size: 20pt;;
+}
+
+#topleft{
+    margin-left: 25%;
+}
+
+#t {
+    position: absolute;
+    left: 54%;
+    top: 0;
+    color: rgb(143, 143, 143);
+
+}
+
+#selected {
+    text-decoration: underline; 
+}
+
+#t, #nsel, #nsel2 {
+    text-decoration: none; 
+}
+
+#selected:hover,#nsel:hover,#nsel2:hover {
+    text-decoration: underline; 
+} 
+
+
+.t{
+    margin-left: 10pt;
+}
+
+
+
+
+#selected{
+    color:white;
+}
+
+#nsel,#nsel2{
+    color: rgb(143, 143, 143);
+}
+
+#top{
+
+position:relative;
+left : 50pt;
+margin-bottom: 50pt;
+font-weight: 700;
+}
+
+#midh{
+font-size: 30pt;
+}
+
+#mid{
+    font-size: 15pt;
+
+}
+
+#middle{
+    color: rgb(225, 225, 225);
+    position:relative;
+    text-align: center;
+    margin-bottom:0;
+    top: 90px;
+
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    color: #333;
+    border-radius: 4px;
+}
+
+
+
+
+#below{
+    text-align: center;
+    margin-top: 250px;
+}
+
+#b{
+    color: rgb(143, 143, 143);
+}
+
+.m{
+    color:white;
+    text-decoration: none;
+
+}
+
+.t{
+    color:white;
+    text-decoration: none;
+
+}
